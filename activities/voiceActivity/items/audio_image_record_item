@@ -6,10 +6,7 @@
     "description": "This is a audio image record item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "schema:image": {
-        "@type": "schema:ImageObject",
-        "schema:contentUrl": "https://picsum.photos/500/400"    
-    },
+    "image": "https://picsum.photos/500/400.png",
     "question": "This is an audio image record item where the participant describes verbally an image shown below for a minute",
     "ui": {
         "inputType": "audioImageRecord"
