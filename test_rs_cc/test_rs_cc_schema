@@ -1,0 +1,52 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Protocol",
+    "@id": "test_rs_cc_schema",
+    "prefLabel": {
+        "en": "Protocol1",
+        "es": "Protocol1_es"
+    },
+    "description": "test-rs-cc",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "landingPage": [
+        {
+            "@id": "README.md",
+            "inLanguage": "en"
+        }
+    ],
+    "messages": [
+        {
+            "message": "Test message: Triggered when item1 value is greater than 0",
+            "jsExpression": "item1 > 0"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "../activities/Activity3/Activity3_schema",
+                "variableName": "Activity3_schema",
+                "prefLabel": "demo of all input types and widgets"
+            },
+            {
+                "isAbout": "../activities/Activity1/Activity1_schema",
+                "variableName": "Activity1_schema",
+                "prefLabel": "Screening"
+            },
+            {
+                "isAbout": "../activities/selectActivity/selectActivity_schema",
+                "variableName": "selectActivity_schema",
+                "prefLabel": "demo of all input types and widgets"
+            }
+        ],
+        "order": [
+            "../activities/Activity3/Activity3_schema",
+            "../activities/Activity1/Activity1_schema",
+            "../activities/selectActivity/selectActivity_schema"
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AllowExport"
+        ]
+    }
+}

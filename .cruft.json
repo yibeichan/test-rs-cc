@@ -1,0 +1,20 @@
+{
+  "template": "https://github.com/ReproNim/reproschema-protocol-cookiecutter",
+  "commit": "84faea924b173cd619efceb5a7903e835efa1251",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "protocol_name": "test-rs-cc",
+      "__protocol_slug": "test_rs_cc",
+      "github_org": "yibeichan",
+      "protocol_description": "test-rs-cc",
+      "number_of_activities": "3",
+      "full_name": "yc",
+      "email": "yc@yc.yc",
+      "__author": "yc <yc@yc.yc>",
+      "license": "MIT",
+      "_template": "https://github.com/ReproNim/reproschema-protocol-cookiecutter"
+    }
+  },
+  "directory": null
+}
