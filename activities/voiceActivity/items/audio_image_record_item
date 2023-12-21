@@ -9,7 +9,7 @@
     "image": {
         "@type": "schema:ImageObject",
         "schema:contentUrl": "https://picsum.photos/500/400"    
-    }
+    },
     "question": "This is an audio image record item where the participant describes verbally an image shown below for a minute",
     "ui": {
         "inputType": "audioImageRecord"
