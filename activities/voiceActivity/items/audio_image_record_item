@@ -1,12 +1,17 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": {
+        "@vocab": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        "image": {
+            "@type": "@id"
+        }
+    },
     "@type": "reproschema:Field",
     "@id": "audio_image_record_item",
     "prefLabel": "audio image record item",
     "description": "This is a audio image record item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "imageUrl": "https://picsum.photos/500/400",
+    "image": "https://picsum.photos/500/400",
     "question": "This is an audio image record item where the participant describes verbally an image shown below for a minute",
     "ui": {
         "inputType": "audioImageRecord"
