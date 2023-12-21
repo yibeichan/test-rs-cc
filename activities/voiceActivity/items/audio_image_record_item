@@ -3,6 +3,7 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
             "image": {
+                "@id": "schema:image",
                 "@type": "@id"
             }
         }
