@@ -1,10 +1,12 @@
 {
-    "@context": {
-        "@vocab": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-        "image": {
-            "@type": "@id"
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "image": {
+                "@type": "@id"
+        },
         }
-    },
+    ],
     "@type": "reproschema:Field",
     "@id": "audio_image_record_item",
     "prefLabel": "audio image record item",
