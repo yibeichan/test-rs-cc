@@ -6,7 +6,7 @@
     "description": "This is a audio image record item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "image": "http://media.freesound.org/data/0/previews/719__elmomo__12oclock_girona_preview.mp3",
+    "imageUrl": "some_text_for testing",
     "question": "This is an audio image record item where the participant describes verbally an image shown below for a minute",
     "ui": {
         "inputType": "audioImageRecord"
