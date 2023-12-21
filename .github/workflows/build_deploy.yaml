@@ -74,7 +74,7 @@ jobs:
 
     - name: Deploy to GitHub Pages 🚀
       if: github.ref == 'refs/heads/main'
-      uses: JamesIves/github-pages-deploy-action@v4
+      uses: JamesIves/github-pages-deploy-action@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
