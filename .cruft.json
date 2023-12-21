@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/ReproNim/reproschema-protocol-cookiecutter",
-  "commit": "84faea924b173cd619efceb5a7903e835efa1251",
+  "commit": "ae2e919ed8a5094d8ef6a2dc8f2eb639744380e9",
   "checkout": null,
   "context": {
     "cookiecutter": {
